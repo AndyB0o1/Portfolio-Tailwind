@@ -1,0 +1,22 @@
+{
+    "project": [
+      {
+        "name": "Tailwind styling exercise",
+        "img": "Tailwind.png",
+        "desc": "A short example exercise using Tailwind to style a page rather than CSS",
+        "url": "https://github.com/AndyB0o1/Tailwind_exercise"
+      },
+      {
+        "name": "Responsive design exercise",
+        "img": "Responsive design example.png",
+        "desc": "Exercise to design a page that wraps to columns upon reaching a min screen size of 500px",
+        "url": "https://github.com/AndyB0o1/test_example"
+      },
+      {
+        "name": "Portfolio page design exercise",
+        "img": "Portfolio page.png",
+        "desc": "An exercise to create a webpage to demonstrate my nascent coding skills with links to examples of projects I have completed",
+        "url": "https://github.com/AndyB0o1/portfolio-exercise"
+      }
+    ]
+}
