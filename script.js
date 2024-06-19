@@ -5,7 +5,7 @@ fetch('portfolio.json').then(function (res) {
         console.log(project)
         const projectType = document.querySelector('.project')
         projectType.innerHTML += `
-    <div class="specificProject bg-orange-100 opacity-80 border solid border white rounded-lg p-3">
+    <div class="specificProject max-w-xl bg-lime-300 opacity-80 border solid border white rounded-lg p-3">
             <h2 class="p-3 text-amber-700 text-2xl">${project.name}</h2>
         <div>
             <img src="${project.img}" alt="A ${project.name}" class="projectImage" />
