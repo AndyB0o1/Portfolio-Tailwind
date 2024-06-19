@@ -18,3 +18,11 @@ fetch('portfolio.json').then(function (res) {
     </div>`
     })
     })
+
+    const dropdown = document.querySelector('.contact')
+    const menu = document.querySelector('.dropdownContent')
+
+    dropdown.addEventListener('mouseover', function() {
+        menu.classList.toggle('hidden')
+    })
+
