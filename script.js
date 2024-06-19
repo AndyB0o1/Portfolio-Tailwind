@@ -21,8 +21,14 @@ fetch('portfolio.json').then(function (res) {
 
     const dropdown = document.querySelector('.contact')
     const menu = document.querySelector('.dropdownContent')
+    const dropdownList = document.querySelector('.dropdown')
 
     dropdown.addEventListener('mouseover', function() {
-        menu.classList.toggle('hidden')
+        menu.classList.remove('hidden')
     })
+
+    dropdownList.addEventListener('mouseleave', function(){
+        menu.classList.add('hidden')
+    })
+
 
