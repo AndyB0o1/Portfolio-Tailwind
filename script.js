@@ -8,7 +8,9 @@ fetch('portfolio.json').then(function (res) {
     <div class="specificProject sm:basis-1/3 bg-[#90AEAD] max-w-2xl border solid border white rounded-lg p-3">
             <h2 class="p-3 font-bold text-cyan-900 text-3xl">${project.name}</h2>
         <div>
-            <img src="${project.img}" alt="A ${project.name}" class="projectImage" />
+            <a href="#" title="See it live">
+            <img src="${project.img}" alt="A ${project.name}" class="projectImage hover:blur-sm hover:cursor-alias"/>
+            </a>
         </div>
         <div class="projectText">
             <p class="p-3 font-bold text-cyan-900 text-2xl">Description</p>
