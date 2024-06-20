@@ -1,7 +1,7 @@
 fetch('portfolio.json').then(function (res) {
     return res.json()
 }).then(function (data) {
-    data.project.forEach(function (project){
+    data.project.forEach(function (project) {
         console.log(project)
         const projectType = document.querySelector('.project')
         projectType.innerHTML += `
@@ -17,18 +17,18 @@ fetch('portfolio.json').then(function (res) {
         </div>
     </div>`
     })
-    })
+})
 
-    const dropdown = document.querySelector('.contact')
-    const menu = document.querySelector('.dropdownContent')
-    const dropdownList = document.querySelector('.dropdown')
+const dropdown = document.querySelector('.contact')
+const menu = document.querySelector('.dropdownContent')
+const dropdownList = document.querySelector('.dropdown')
 
-    dropdown.addEventListener('mouseover', function() {
-        menu.classList.remove('hidden')
-    })
+dropdown.addEventListener('mouseover', function () {
+    menu.classList.remove('hidden')
+})
 
-    dropdownList.addEventListener('mouseleave', function(){
-        menu.classList.add('hidden')
-    })
+dropdownList.addEventListener('mouseleave', function () {
+    menu.classList.add('hidden')
+})
 
 
