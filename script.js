@@ -13,7 +13,7 @@ fetch('portfolio.json').then(function (res) {
         <div class="projectText">
             <p class="p-3 font-bold text-cyan-900 text-2xl">Description</p>
             <p class="p-3 text-xl">${project.desc}
-            <p p-3><a class="p-3 text-orange-100 text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg p-3" href="${project.url}" target="_blank">See it on github</a></p>
+            <p class="py-2"><a class="p-3 text-orange-100 text-xl bg-cyan-900 rounded-lg hover:bg-lime-300 hover:text-cyan-900 rounded-lg p-3" href="${project.url}" target="_blank">See it on github</a></p>
         </div>
     </div>`
     })
